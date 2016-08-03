@@ -1,6 +1,7 @@
 # This is a demo repository
 
-Type following commands to get this repository
+Type following commands to get this repository  
+
 `
 git init`
 
