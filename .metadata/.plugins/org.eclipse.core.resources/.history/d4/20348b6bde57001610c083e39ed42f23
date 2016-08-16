@@ -1,0 +1,15 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class AccountTest {
+
+	//1. System should create account successfully, if min Rs. 500/- are deposited while creating account
+	//2. System should give error if user attempts to create account with less than Rs. 500/-
+	
+	@Test
+	public void test() {
+		assertTrue(true);
+	}
+
+}

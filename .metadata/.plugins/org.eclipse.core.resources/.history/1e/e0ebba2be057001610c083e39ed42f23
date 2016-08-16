@@ -1,0 +1,50 @@
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+
+import static org.mockito.Mockito.when;
+
+import com.cg.demo.exceptions.InsufficientBalanceException;
+import com.cg.demo.exceptions.InvalidInitialAmountException;
+import com.cg.demo.pojo.Account;
+import com.cg.demo.repo.AccountDAO;
+import com.cg.demo.service.AccountService;
+import com.cg.demo.service.AccountServiceImpl;
+
+public class AccountTest {
+
+	private AccountService service;
+	
+	@Mock
+	private AccountDAO dao;
+	
+	@Before
+	public void init(){
+		MockitoAnnotations.initMocks(this);
+		service = new AccountServiceImpl(dao);
+	}
+	//1. System should create account successfully, if min Rs. 500/- are deposited while creating account
+	//2. System should give error if user attempts to create account with less than Rs. 500/-
+	
+	
+	@Test
+	public void account_should_be_created_successfully_if_amount_is_min_500() throws InvalidInitialAmountException {
+		
+		Account a = new Account(1);
+		a.setBalance(1000);
+		
+		when(dao.save(a))
+		Account newAccount = service.createAccount(1000);
+		assertEquals(1000.0+"", newAccount.getBalance()+"");
+	}
+	
+	@Test(expected=InvalidInitialAmountException.class)
+	public void account_should_not_be_created_if_amount_is_less_than_500() {
+		assertTrue(true);
+	}
+	
+
+}

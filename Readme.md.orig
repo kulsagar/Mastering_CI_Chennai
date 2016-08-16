@@ -1,0 +1,13 @@
+# This is a demo repository
+
+Type following commands to get this repository
+`
+git init
+git pull https://github.com/kulsagar/Mastering_CI_Chennai.git 
+<<<<<<< HEAD
+This is just a README file
+=======
+>>>>>>> 3930339402ad9fc5e56fe326ea9ff98954fe8514
+`
+# This is my 1st time with Github
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
+<fullyQualifiedTypeName name="com.cg.demo.repo.AccountDAO"/>
+<fullyQualifiedTypeName name="com.cg.demo.service.AccountServiceImpl"/>
+<fullyQualifiedTypeName name="org.mockito.MockitoAnnotations.Mock"/>
+<fullyQualifiedTypeName name="com.cg.demo.pojo.Account"/>
+<fullyQualifiedTypeName name="org.mockito.Mock"/>
+<fullyQualifiedTypeName name="org.mockito.Mockito"/>
+<fullyQualifiedTypeName name="com.cg.demo.exceptions.InvalidInitialAmountException"/>
+<fullyQualifiedTypeName name="com.cg.demo.exceptions.InvalidAccountException"/>
+<fullyQualifiedTypeName name="com.cg.demo.exceptions.InsufficientBalanceException"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+</qualifiedTypeNameHistroy>

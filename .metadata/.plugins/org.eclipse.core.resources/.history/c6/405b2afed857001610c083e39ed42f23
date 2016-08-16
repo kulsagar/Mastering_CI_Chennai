@@ -1,0 +1,35 @@
+package com.cg.demo.service;
+
+import com.cg.demo.exceptions.InsufficientBalanceException;
+import com.cg.demo.exceptions.InvalidAccountException;
+import com.cg.demo.exceptions.InvalidInitialAmountException;
+import com.cg.demo.pojo.Account;
+
+public class AccountServiceImpl implements AccountService {
+
+	@Override
+	public Account createAccount(double amount) throws InvalidInitialAmountException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Account showBalance(int accountNumber) throws InvalidAccountException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Account withdraw(int accountNumber, double amount)
+			throws InvalidAccountException, InsufficientBalanceException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Account deposit(int accountNumber, double amount) throws InvalidAccountException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

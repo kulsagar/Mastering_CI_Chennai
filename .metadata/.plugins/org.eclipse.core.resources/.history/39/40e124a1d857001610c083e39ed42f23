@@ -1,0 +1,5 @@
+package com.cg.demo.service;
+
+public class InvalidInitialAmountException extends Exception {
+
+}

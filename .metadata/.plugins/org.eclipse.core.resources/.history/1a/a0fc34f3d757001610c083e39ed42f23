@@ -1,0 +1,5 @@
+package com.cg.demo.repo;
+
+public interface AccountDAO {
+
+}

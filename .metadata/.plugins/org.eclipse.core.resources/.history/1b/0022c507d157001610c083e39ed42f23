@@ -1,0 +1,48 @@
+package com.cg.demo.test;
+
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+import com.cg.demo.Algebra;
+
+public class AlgebraTest {
+
+	// 1. Zero factorial is one
+	// 2. One factorial is one
+	// 3. Five factorial is One Twenty
+	//4. Negative numbers factorial cannot be computed.
+	
+	
+	@Test
+	public void zero_factorial_is_one() {
+		Algebra a = new Algebra();
+		assertEquals(1, a.factorial(0));
+	}
+
+	@Test
+	public void one_factorial_is_one() {
+		Algebra a = new Algebra();
+		assertEquals(1, a.factorial(1));
+	}
+	
+	@Test
+	public void five_factorial_is_one_twenty() {
+		Algebra a = new Algebra();
+		assertEquals(120, a.factorial(5));
+	}
+	
+	@Test(expected=java.lang.IllegalArgumentException.class)
+	public void negative_numbers_factorial_cannot_be_computed() {
+		Algebra a = new Algebra();
+		a.factorial(-234);
+	}
+
+}
+
+
+
+
+
+
+

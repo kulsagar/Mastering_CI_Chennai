@@ -1,0 +1,5 @@
+package com.cg.demo.service;
+
+public class InvalidAccountException extends Exception {
+
+}

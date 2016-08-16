@@ -1,0 +1,12 @@
+package com.cg.demo.service;
+
+import com.cg.demo.pojo.Account;
+
+public interface AccountService {
+
+	Account createAccount(double amount) throws InvalidInitialAmountException;
+
+	Account showBalance(int accountNumber) throws InvalidAccountException;
+	
+	Account withdraw(int accountNumber, double amount)throws InvalidAccountException,InsufficientBalanceException
+}

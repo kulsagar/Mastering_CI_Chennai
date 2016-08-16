@@ -1,0 +1,9 @@
+package com.cg.demo;
+
+public class Algebra {
+
+	public long factorial(long l){
+		
+		return 1;
+	}
+}

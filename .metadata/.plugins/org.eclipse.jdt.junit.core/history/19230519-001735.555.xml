@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AccountTest" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="AccountTest" time="0.267">
+    <testcase name="when_valid_accountNumber_is_passed_method_should_return_account_object" classname="AccountTest" time="0.263"/>
+    <testcase name="when_invalid_accountNumber_is_passed_method_should_throw_excpetion" classname="AccountTest" time="0.001"/>
+    <testcase name="when_amount_passed_is_greater_than_balance_method_should_throw_exception" classname="AccountTest" time="0.0"/>
+    <testcase name="when_amount_passed_is_less_than_zero_method_should_throw_exception" classname="AccountTest" time="0.001"/>
+    <testcase name="account_should_not_be_created_if_amount_is_less_than_500" classname="AccountTest" time="0.0"/>
+    <testcase name="when_invalid_accountNumber_method_should_throw_exception" classname="AccountTest" time="0.001"/>
+    <testcase name="account_should_be_created_successfully_if_amount_is_min_500" classname="AccountTest" time="0.0"/>
+    <testcase name="when_valid_accountNumber_and_sufficient_amount_is_passed_method_should_deduct_the_balance_and_return_the_account_object" classname="AccountTest" time="0.001"/>
+  </testsuite>
+</testrun>
