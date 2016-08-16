@@ -705,3 +705,7 @@
 2016-08-16 11:13:12,873 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sagar\Training\August16\MasteringCI\DemoCode\BankApp\src\main\resources
 2016-08-16 11:13:12,875 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-08-16 11:13:12,876 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sagar\Training\August16\MasteringCI\DemoCode\BankApp\src\test\resources
+2016-08-16 11:18:54,804 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-16 11:18:54,805 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sagar\Training\August16\MasteringCI\DemoCode\BankApp\src\main\resources
+2016-08-16 11:18:54,806 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-16 11:18:54,807 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\sagar\Training\August16\MasteringCI\DemoCode\BankApp\src\test\resources

@@ -79,7 +79,7 @@ public class AccountTest {
 		
 		when(dao.findByNumber(123)).thenReturn(oldAccount);
 		
-		assertEquals(4000.0+"", service.withdraw(123, 1000).getBalance()+"");
+		assertEquals(4000.0+"", service.withdraw(12, 1000).getBalance()+"");
 		
 	}
 	@Test(expected=InvalidAccountException.class)
