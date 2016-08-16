@@ -7,3 +7,5 @@ git init`
 
 `git pull https://github.com/kulsagar/Mastering_CI_Chennai.git  
 `
+
+This Demo code for CI.
